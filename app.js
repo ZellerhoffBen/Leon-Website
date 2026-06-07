@@ -460,7 +460,7 @@ function createApp() {
       : `${correct} vo ${total} richtig. du bruchsch: ${MENTAL_MATH_QUESTION_COUNT} vo ${MENTAL_MATH_QUESTION_COUNT}.`;
     renderResult({
       stageId: "mental-math",
-      title: passed ? "guet gmacht" : "lock in leon, ich han gmeint du wärsch chines?",
+      title: passed ? "guet gmacht" : "lock in leon, ich han gmeint du wärsch guet in mathi?",
       message,
       passed,
       retryLabel: "Nomal versueche",
