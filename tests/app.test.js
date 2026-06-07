@@ -32,7 +32,7 @@ test("initial progress starts at the landing stage with no completed stages", ()
 
 test("production difficulty is active", () => {
   assert.equal(DEV_MODE, false);
-  assert.equal(MENTAL_MATH_QUESTION_COUNT, 9);
+  assert.equal(MENTAL_MATH_QUESTION_COUNT, 8);
   assert.equal(MEMORY_REQUIRED_LEVEL, 9);
 });
 
