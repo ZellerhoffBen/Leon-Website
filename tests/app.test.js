@@ -1,6 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import {
+  DEV_MODE,
   MENTAL_MATH_QUESTION_COUNT,
   MEMORY_REQUIRED_LEVEL,
   STAGES,
@@ -27,6 +28,12 @@ test("initial progress starts at the landing stage with no completed stages", ()
 
   assert.equal(progress.currentStage, "intro");
   assert.deepEqual(progress.completedStages, []);
+});
+
+test("production difficulty is active", () => {
+  assert.equal(DEV_MODE, false);
+  assert.equal(MENTAL_MATH_QUESTION_COUNT, 9);
+  assert.equal(MEMORY_REQUIRED_LEVEL, 9);
 });
 
 test("mental math requires all configured questions correct", () => {

@@ -5,9 +5,9 @@ export const STAGES = [
 ];
 
 const STORAGE_KEY = "leonBirthdayChallengeProgress";
-export const DEV_MODE = true;
+export const DEV_MODE = false;
 const NORMAL_MENTAL_MATH_QUESTION_COUNT = 9;
-const NORMAL_MEMORY_REQUIRED_LEVEL = 10;
+const NORMAL_MEMORY_REQUIRED_LEVEL = 9;
 
 export const MENTAL_MATH_QUESTION_COUNT = DEV_MODE ? 1 : NORMAL_MENTAL_MATH_QUESTION_COUNT;
 const MENTAL_MATH_SECONDS = 40;
@@ -29,38 +29,38 @@ const REWARD_VIDEOS = [
 const FINAL_HINT_WORD = "HINWEIS";
 
 const MENTAL_MATH_BANK = [
-  { question: "19 + 37", answer: 56 },
-  { question: "86 - 49", answer: 37 },
-  { question: "12 × 7", answer: 84 },
-  { question: "135 ÷ 9", answer: 15 },
-  { question: "24 + 58", answer: 82 },
-  { question: "92 - 47", answer: 45 },
-  { question: "13 × 6", answer: 78 },
-  { question: "144 ÷ 12", answer: 12 },
-  { question: "18 + 46", answer: 64 },
-  { question: "103 - 58", answer: 45 },
-  { question: "11 × 9", answer: 99 },
-  { question: "156 ÷ 12", answer: 13 },
-  { question: "39 + 48", answer: 87 },
-  { question: "121 - 66", answer: 55 },
-  { question: "14 × 7", answer: 98 },
-  { question: "168 ÷ 14", answer: 12 },
-  { question: "67 + 29", answer: 96 },
-  { question: "90 - 54", answer: 36 },
-  { question: "15 × 8", answer: 120 },
-  { question: "189 ÷ 9", answer: 21 },
-  { question: "52 + 39", answer: 91 },
-  { question: "111 - 64", answer: 47 },
-  { question: "16 × 5", answer: 80 },
-  { question: "196 ÷ 14", answer: 14 },
-  { question: "28 + 67", answer: 95 },
-  { question: "130 - 75", answer: 55 },
-  { question: "17 × 4", answer: 68 },
-  { question: "180 ÷ 12", answer: 15 },
-  { question: "73 + 36", answer: 109 },
-  { question: "140 - 68", answer: 72 },
-  { question: "12 × 11", answer: 132 },
-  { question: "225 ÷ 15", answer: 15 },
+  { question: "18 + 27", answer: 45 },
+  { question: "46 - 18", answer: 28 },
+  { question: "7 × 8", answer: 56 },
+  { question: "72 ÷ 9", answer: 8 },
+  { question: "24 + 35", answer: 59 },
+  { question: "83 - 47", answer: 36 },
+  { question: "6 × 9", answer: 54 },
+  { question: "64 ÷ 8", answer: 8 },
+  { question: "29 + 38", answer: 67 },
+  { question: "91 - 56", answer: 35 },
+  { question: "8 × 7", answer: 56 },
+  { question: "81 ÷ 9", answer: 9 },
+  { question: "33 + 44", answer: 77 },
+  { question: "70 - 29", answer: 41 },
+  { question: "9 × 6", answer: 54 },
+  { question: "56 ÷ 7", answer: 8 },
+  { question: "47 + 26", answer: 73 },
+  { question: "62 - 38", answer: 24 },
+  { question: "5 × 12", answer: 60 },
+  { question: "90 ÷ 10", answer: 9 },
+  { question: "36 + 28", answer: 64 },
+  { question: "100 - 63", answer: 37 },
+  { question: "11 × 6", answer: 66 },
+  { question: "84 ÷ 7", answer: 12 },
+  { question: "58 + 19", answer: 77 },
+  { question: "75 - 34", answer: 41 },
+  { question: "4 × 13", answer: 52 },
+  { question: "96 ÷ 8", answer: 12 },
+  { question: "22 + 49", answer: 71 },
+  { question: "88 - 39", answer: 49 },
+  { question: "12 × 5", answer: 60 },
+  { question: "99 ÷ 9", answer: 11 },
 ];
 
 export function buildInitialProgress() {
