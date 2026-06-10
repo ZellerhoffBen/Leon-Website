@@ -26,7 +26,7 @@ const REWARD_VIDEOS = [
   { src: `${MEDIA_BASE}/catdance-browser.mp4`, label: "Cat Dance" },
   { src: `${MEDIA_BASE}/tanz-browser.mp4`, label: "Tanz" },
 ];
-const FINAL_HINT_WORD = "HINWEIS";
+const FINAL_HINT_WORD = "WORT";
 
 const MENTAL_MATH_BANK = [
   { question: "18 + 27", answer: 45 },
